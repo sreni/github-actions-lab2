@@ -11,7 +11,7 @@ jobs:
         py-version: ['3.10',3.11,3.12]
         exclude:    
           - macos-14
-          - 3.12
+          - '3.12'
       #max-parallel: 2
     runs-on: ${{ matrix.os }} 
     steps:
